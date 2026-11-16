@@ -80,7 +80,7 @@ function getMultiplier() {
   return 1.0;
 }
 
-// Foreign → NTD
+// Foreign → TWD
 function updateFromForeign() {
   if (currentRate === null) return;
   const amount = parseFloat(amountInput.value);
@@ -109,7 +109,7 @@ function updateResult() {
 function updateLabels() {
   const cfg = CURRENCIES[currentCurrency];
   headerLogo.textContent = cfg.symbol;
-  headerTitle.textContent = `${cfg.label} → NTD`;
+  headerTitle.textContent = `${cfg.label} → TWD`;
   inputLabel.textContent = `Amount in ${cfg.label}`;
   inputPrefix.textContent = cfg.symbol;
   amountInput.value = '';

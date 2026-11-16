@@ -1,6 +1,6 @@
 // Network-first for the app's own files, with an offline fallback.
 // Exchange-rate requests are not cached here (the app keeps the last rate itself).
-const CACHE = 'jpy-to-ntd-v1';
+const CACHE = 'jpy-to-twd-v2';
 const FILES = [
   './',
   './index.html',
